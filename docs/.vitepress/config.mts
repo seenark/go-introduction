@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Go for Typescript developers",
   description: "This is internal training for AQS. I create this website for teaching instead of create keynote sor canva slides",
+  base: "/go-introduction/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     search: {
@@ -42,7 +43,7 @@ export default defineConfig({
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/seenark/go-introduction' }
     ]
   }
 })
