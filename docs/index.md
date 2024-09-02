@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Go for Typescript developers"
+  name: "Go for Typescript dev"
   text: "This is internal training for AQS. I create this website for teaching instead of create keynote sor canva slides"
   tagline: My great project tagline
   actions:

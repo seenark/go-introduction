@@ -1,41 +1,41 @@
 import {
   useMediaQuery
-} from "./chunk-LF7U5C6X.js";
+} from "./chunk-7LUTEMNG.js";
 import {
   computed,
   ref,
   shallowRef,
   watch
-} from "./chunk-45KCXATN.js";
+} from "./chunk-PAUCAATC.js";
 
 // node_modules/vitepress/dist/client/theme-default/index.js
-import "/Volumes/HadesGodBlue/Learn/go/go-for-ts/docs/node_modules/vitepress/dist/client/theme-default/styles/fonts.css";
+import "/Volumes/HadesGodBlue/Learn/go/go-for-ts/node_modules/vitepress/dist/client/theme-default/styles/fonts.css";
 
 // node_modules/vitepress/dist/client/theme-default/without-fonts.js
-import "/Volumes/HadesGodBlue/Learn/go/go-for-ts/docs/node_modules/vitepress/dist/client/theme-default/styles/vars.css";
-import "/Volumes/HadesGodBlue/Learn/go/go-for-ts/docs/node_modules/vitepress/dist/client/theme-default/styles/base.css";
-import "/Volumes/HadesGodBlue/Learn/go/go-for-ts/docs/node_modules/vitepress/dist/client/theme-default/styles/icons.css";
-import "/Volumes/HadesGodBlue/Learn/go/go-for-ts/docs/node_modules/vitepress/dist/client/theme-default/styles/utils.css";
-import "/Volumes/HadesGodBlue/Learn/go/go-for-ts/docs/node_modules/vitepress/dist/client/theme-default/styles/components/custom-block.css";
-import "/Volumes/HadesGodBlue/Learn/go/go-for-ts/docs/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code.css";
-import "/Volumes/HadesGodBlue/Learn/go/go-for-ts/docs/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code-group.css";
-import "/Volumes/HadesGodBlue/Learn/go/go-for-ts/docs/node_modules/vitepress/dist/client/theme-default/styles/components/vp-doc.css";
-import "/Volumes/HadesGodBlue/Learn/go/go-for-ts/docs/node_modules/vitepress/dist/client/theme-default/styles/components/vp-sponsor.css";
-import VPBadge from "/Volumes/HadesGodBlue/Learn/go/go-for-ts/docs/node_modules/vitepress/dist/client/theme-default/components/VPBadge.vue";
-import Layout from "/Volumes/HadesGodBlue/Learn/go/go-for-ts/docs/node_modules/vitepress/dist/client/theme-default/Layout.vue";
-import { default as default2 } from "/Volumes/HadesGodBlue/Learn/go/go-for-ts/docs/node_modules/vitepress/dist/client/theme-default/components/VPBadge.vue";
-import { default as default3 } from "/Volumes/HadesGodBlue/Learn/go/go-for-ts/docs/node_modules/vitepress/dist/client/theme-default/components/VPImage.vue";
-import { default as default4 } from "/Volumes/HadesGodBlue/Learn/go/go-for-ts/docs/node_modules/vitepress/dist/client/theme-default/components/VPButton.vue";
-import { default as default5 } from "/Volumes/HadesGodBlue/Learn/go/go-for-ts/docs/node_modules/vitepress/dist/client/theme-default/components/VPHomeContent.vue";
-import { default as default6 } from "/Volumes/HadesGodBlue/Learn/go/go-for-ts/docs/node_modules/vitepress/dist/client/theme-default/components/VPHomeHero.vue";
-import { default as default7 } from "/Volumes/HadesGodBlue/Learn/go/go-for-ts/docs/node_modules/vitepress/dist/client/theme-default/components/VPHomeFeatures.vue";
-import { default as default8 } from "/Volumes/HadesGodBlue/Learn/go/go-for-ts/docs/node_modules/vitepress/dist/client/theme-default/components/VPHomeSponsors.vue";
-import { default as default9 } from "/Volumes/HadesGodBlue/Learn/go/go-for-ts/docs/node_modules/vitepress/dist/client/theme-default/components/VPDocAsideSponsors.vue";
-import { default as default10 } from "/Volumes/HadesGodBlue/Learn/go/go-for-ts/docs/node_modules/vitepress/dist/client/theme-default/components/VPSponsors.vue";
-import { default as default11 } from "/Volumes/HadesGodBlue/Learn/go/go-for-ts/docs/node_modules/vitepress/dist/client/theme-default/components/VPTeamPage.vue";
-import { default as default12 } from "/Volumes/HadesGodBlue/Learn/go/go-for-ts/docs/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageTitle.vue";
-import { default as default13 } from "/Volumes/HadesGodBlue/Learn/go/go-for-ts/docs/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageSection.vue";
-import { default as default14 } from "/Volumes/HadesGodBlue/Learn/go/go-for-ts/docs/node_modules/vitepress/dist/client/theme-default/components/VPTeamMembers.vue";
+import "/Volumes/HadesGodBlue/Learn/go/go-for-ts/node_modules/vitepress/dist/client/theme-default/styles/vars.css";
+import "/Volumes/HadesGodBlue/Learn/go/go-for-ts/node_modules/vitepress/dist/client/theme-default/styles/base.css";
+import "/Volumes/HadesGodBlue/Learn/go/go-for-ts/node_modules/vitepress/dist/client/theme-default/styles/icons.css";
+import "/Volumes/HadesGodBlue/Learn/go/go-for-ts/node_modules/vitepress/dist/client/theme-default/styles/utils.css";
+import "/Volumes/HadesGodBlue/Learn/go/go-for-ts/node_modules/vitepress/dist/client/theme-default/styles/components/custom-block.css";
+import "/Volumes/HadesGodBlue/Learn/go/go-for-ts/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code.css";
+import "/Volumes/HadesGodBlue/Learn/go/go-for-ts/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code-group.css";
+import "/Volumes/HadesGodBlue/Learn/go/go-for-ts/node_modules/vitepress/dist/client/theme-default/styles/components/vp-doc.css";
+import "/Volumes/HadesGodBlue/Learn/go/go-for-ts/node_modules/vitepress/dist/client/theme-default/styles/components/vp-sponsor.css";
+import VPBadge from "/Volumes/HadesGodBlue/Learn/go/go-for-ts/node_modules/vitepress/dist/client/theme-default/components/VPBadge.vue";
+import Layout from "/Volumes/HadesGodBlue/Learn/go/go-for-ts/node_modules/vitepress/dist/client/theme-default/Layout.vue";
+import { default as default2 } from "/Volumes/HadesGodBlue/Learn/go/go-for-ts/node_modules/vitepress/dist/client/theme-default/components/VPBadge.vue";
+import { default as default3 } from "/Volumes/HadesGodBlue/Learn/go/go-for-ts/node_modules/vitepress/dist/client/theme-default/components/VPImage.vue";
+import { default as default4 } from "/Volumes/HadesGodBlue/Learn/go/go-for-ts/node_modules/vitepress/dist/client/theme-default/components/VPButton.vue";
+import { default as default5 } from "/Volumes/HadesGodBlue/Learn/go/go-for-ts/node_modules/vitepress/dist/client/theme-default/components/VPHomeContent.vue";
+import { default as default6 } from "/Volumes/HadesGodBlue/Learn/go/go-for-ts/node_modules/vitepress/dist/client/theme-default/components/VPHomeHero.vue";
+import { default as default7 } from "/Volumes/HadesGodBlue/Learn/go/go-for-ts/node_modules/vitepress/dist/client/theme-default/components/VPHomeFeatures.vue";
+import { default as default8 } from "/Volumes/HadesGodBlue/Learn/go/go-for-ts/node_modules/vitepress/dist/client/theme-default/components/VPHomeSponsors.vue";
+import { default as default9 } from "/Volumes/HadesGodBlue/Learn/go/go-for-ts/node_modules/vitepress/dist/client/theme-default/components/VPDocAsideSponsors.vue";
+import { default as default10 } from "/Volumes/HadesGodBlue/Learn/go/go-for-ts/node_modules/vitepress/dist/client/theme-default/components/VPSponsors.vue";
+import { default as default11 } from "/Volumes/HadesGodBlue/Learn/go/go-for-ts/node_modules/vitepress/dist/client/theme-default/components/VPTeamPage.vue";
+import { default as default12 } from "/Volumes/HadesGodBlue/Learn/go/go-for-ts/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageTitle.vue";
+import { default as default13 } from "/Volumes/HadesGodBlue/Learn/go/go-for-ts/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageSection.vue";
+import { default as default14 } from "/Volumes/HadesGodBlue/Learn/go/go-for-ts/node_modules/vitepress/dist/client/theme-default/components/VPTeamMembers.vue";
 
 // node_modules/vitepress/dist/client/theme-default/support/utils.js
 import { withBase } from "vitepress";
